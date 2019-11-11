@@ -1,6 +1,6 @@
 import utilities.*
 
-def multiPipeline = new GithubMultibranch(
+def multiPipeline = new GithubMultibranchJob(
     description: 'Just try make world better',
     name: 'Github-Test',
     displayName: 'Github-Test',

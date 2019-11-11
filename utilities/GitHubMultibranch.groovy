@@ -1,11 +1,8 @@
 package utilities
 
-import groovy.transform.builder.Builder
-import groovy.transform.builder.SimpleStrategy 
 import javaposse.jobdsl.dsl.DslFactory
 
-@Builder(builderStrategy = SimpleStrategy, prefix = '')
-class GithubMultibranch {
+class GithubMultibranchJob {
  
     String name
     String description
