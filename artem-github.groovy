@@ -8,6 +8,6 @@ def multiPipeline = new GithubMultibranch(
     repositoryOwner: "yuezhuxiang",
     repositoryName: "jenkinsci-example",
     credentials: '0f57727d-e2bf-42ef-bdc5-94a53d7248c1',
-    includeBranches: 'master branchA',
+    includeBranches: 'development master branchA',
     excludeBranches: ''
 ).build(this)
