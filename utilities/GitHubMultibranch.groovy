@@ -1,7 +1,8 @@
 package utilities
  
 import javaposse.jobdsl.dsl.DslFactory
- 
+
+@Builder(builderStrategy = SimpleStrategy, prefix = '') 
 class GithubMultibranch {
  
     String name
