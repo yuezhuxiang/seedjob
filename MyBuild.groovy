@@ -9,8 +9,8 @@ job("MyProject-Build") {
     scm {
         git {
             remote {
-                url gitUrl.
-                branch "origin/master"
+                url(gitUrl)
+                credentials("0f57727d-e2bf-42ef-bdc5-94a53d7248c1")
             }
             extensions {
                 wipeOutWorkspace()
