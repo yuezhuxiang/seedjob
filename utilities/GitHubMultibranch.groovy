@@ -2,7 +2,7 @@ package utilities
 
 import javaposse.jobdsl.dsl.DslFactory
 
-class GithubMultibranchJob {
+class GithubMultibranch {
  
     String name
     String description
