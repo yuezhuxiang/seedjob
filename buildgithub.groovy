@@ -1,6 +1,5 @@
-import utilities.GithubMultibranch
- 
- 
+import utilities.*
+
 def multiPipeline = new GithubMultibranch(
     description: 'Just try make world better',
     name: 'Github-Test',
