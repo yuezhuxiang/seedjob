@@ -28,7 +28,7 @@ class BtcGithubPipeline {
                 github {
                     id(jobId)
                     includes(this.includes)
-                    repoOwner(this.projectKey)
+                    repoOwner("yuezhuxiang")
                     repository(this.repository)
                     scanCredentialsId('0f57727d-e2bf-42ef-bdc5-94a53d7248c1')
                     checkoutCredentialsId('0f57727d-e2bf-42ef-bdc5-94a53d7248c1')
