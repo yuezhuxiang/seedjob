@@ -1,5 +1,4 @@
-
-import ./utilities.GithubMultibranch
+import utilities.GithubMultibranch
 
 def multiPipeline = new GithubMultibranch()
     .description('Just try make world better')
@@ -10,4 +9,4 @@ def multiPipeline = new GithubMultibranch()
     .credentials('0f57727d-e2bf-42ef-bdc5-94a53d7248c1')
     .includeBranches('development master branchA')
     .excludeBranches('')
-    .build(this)
+    .build()
