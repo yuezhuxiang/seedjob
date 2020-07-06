@@ -1,4 +1,4 @@
-import utilities.GithubMultibranch
+import ./utilities.GithubMultibranch
 
 def multiPipeline = new GithubMultibranch()
     .description('Just try make world better')
