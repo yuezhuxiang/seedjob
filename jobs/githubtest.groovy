@@ -9,4 +9,4 @@ new BtcGithubPipeline()
     .credentials('0f57727d-e2bf-42ef-bdc5-94a53d7248c1')
     .includeBranches('development master branchA')
     .excludeBranches('')
-    .build(
+    .build(this)
